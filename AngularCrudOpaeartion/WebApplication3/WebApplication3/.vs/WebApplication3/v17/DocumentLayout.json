@@ -1,0 +1,337 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Self Selector\\crud\\WebApplication3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\model\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:model\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\migrations\\20251024163942_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:migrations\\20251024163942_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\migrations\\20251024171302_adduserloginrelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:migrations\\20251024171302_adduserloginrelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\model\\dbcontext_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:model\\dbcontext_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\migrations\\20251021143505_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:migrations\\20251021143505_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\migrations\\dbcontext_loginmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:migrations\\dbcontext_loginmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\helper\\xmlfilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:helper\\xmlfilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\model\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:model\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\webapplication3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:webapplication3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\webapplication3.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:webapplication3.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|d:\\my self selector\\crud\\webapplication3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{459AD9F5-0CB8-44CC-AD75-E7AC324B453A}|WebApplication3.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20251024171302_AddUserLoginRelation.cs",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\Migrations\\20251024171302_AddUserLoginRelation.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251024171302_AddUserLoginRelation.cs",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\Migrations\\20251024171302_AddUserLoginRelation.cs",
+              "RelativeToolTip": "Migrations\\20251024171302_AddUserLoginRelation.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAgwBkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T17:13:02.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20251024163942_SignUp.cs",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\Migrations\\20251024163942_SignUp.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251024163942_SignUp.cs",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\Migrations\\20251024163942_SignUp.cs",
+              "RelativeToolTip": "Migrations\\20251024163942_SignUp.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T16:39:42.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignUpController.cs",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\Controllers\\SignUpController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SignUpController.cs",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\Controllers\\SignUpController.cs",
+              "RelativeToolTip": "Controllers\\SignUpController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T13:01:24.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignUp.cs",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\Model\\SignUp.cs",
+              "RelativeDocumentMoniker": "Model\\SignUp.cs",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\Model\\SignUp.cs",
+              "RelativeToolTip": "Model\\SignUp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:57:33.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DbContext_LoginModelSnapshot.cs",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\Migrations\\DbContext_LoginModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\DbContext_LoginModelSnapshot.cs",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\Migrations\\DbContext_LoginModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\DbContext_LoginModelSnapshot.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAwwGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:36:05.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\DTO\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "DTO\\LoginRequestDto.cs",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\DTO\\LoginRequestDto.cs",
+              "RelativeToolTip": "DTO\\LoginRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T16:50:54.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20251021143505_Initial.cs",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\Migrations\\20251021143505_Initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251021143505_Initial.cs",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\Migrations\\20251021143505_Initial.cs",
+              "RelativeToolTip": "Migrations\\20251021143505_Initial.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBUAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T14:35:05.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DbContext_Login.cs",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\Model\\DbContext_Login.cs",
+              "RelativeDocumentMoniker": "Model\\DbContext_Login.cs",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\Model\\DbContext_Login.cs",
+              "RelativeToolTip": "Model\\DbContext_Login.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAowAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T14:00:21.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:53:18.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\Model\\Login.cs",
+              "RelativeDocumentMoniker": "Model\\Login.cs",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\Model\\Login.cs",
+              "RelativeToolTip": "Model\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T11:54:11.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\Model\\TokenService.cs",
+              "RelativeDocumentMoniker": "Model\\TokenService.cs",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\Model\\TokenService.cs",
+              "RelativeToolTip": "Model\\TokenService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowBwAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T11:53:04.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAABEAAAAAAAAAAABRwCAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T10:28:11.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIAwwBoAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T10:23:01.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "XmlFileHelper.cs",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\Helper\\XmlFileHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\XmlFileHelper.cs",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\Helper\\XmlFileHelper.cs",
+              "RelativeToolTip": "Helper\\XmlFileHelper.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T10:20:38.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WebApplication3.csproj",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\WebApplication3.csproj",
+              "RelativeDocumentMoniker": "WebApplication3.csproj",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\WebApplication3.csproj",
+              "RelativeToolTip": "WebApplication3.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-07T10:00:07.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "Model\\Employee.cs",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\Model\\Employee.cs",
+              "RelativeToolTip": "Model\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T09:57:54.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAwwJgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T09:56:58.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T11:13:07.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WebApplication3.http",
+              "DocumentMoniker": "D:\\My Self Selector\\crud\\WebApplication3\\WebApplication3.http",
+              "RelativeDocumentMoniker": "WebApplication3.http",
+              "ToolTip": "D:\\My Self Selector\\crud\\WebApplication3\\WebApplication3.http",
+              "RelativeToolTip": "WebApplication3.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-07T10:54:22.276Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
