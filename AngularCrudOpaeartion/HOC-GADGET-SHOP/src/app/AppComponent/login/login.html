@@ -1,0 +1,55 @@
+<div class="outer">
+    <div class="container">
+        <div class="row">
+            <div class="offset-md-2 col-lg-5 col-md-7 offset-lg-4 offset-md-3">
+                <div class="panel border bg-white">
+                    <div class="panel-heading">
+                        <h3 class="text-center">Login</h3>
+                    </div>
+                   <div class="panel-body-p3" style="min-height: 250px;">
+                   <form [formGroup]="LoginForms" class="row g-3 gy-2 align-items-center" (ngSubmit)="onsubmit()">
+                        <div class="contain">
+                        <div class="form-group pt3">
+                            <div class="input-field">
+                                <Label class="lebelText">UserName/Email</Label>
+                               <!-- <input type="text"  placeholder="Username" [(ngModel)]="userLogin.username" name="username"/> -->
+                                 <!-- <input type="text"  class="form-control" placeholder="Username" [(ngModel)]="userLogin.username" name="username"> -->
+                                <input type="text"  class="form-control" placeholder="Username" formControlName="username">
+                                <!-- <small *ngIf="LoginForms.controls['username'].touched && LoginForms.controls['username'].hasError('required')" class="text-danger">  Enter the Valid Password</small> -->
+<small *ngIf="(LoginForms.controls['username'].dirty || LoginForms.controls['username'].touched) && LoginForms.controls['username'].hasError('required')" class="text-danger">
+  Enter the Valid UserName
+</small>
+
+                            </div>
+
+                        </div>
+                        <div class="form-group pt3">
+                            <div class="input-field">
+                               <Label class="lebelText" style="text-align: center;">Password</Label>
+                             <!-- <input type="text"  placeholder="Password" [(ngModel)]="userLogin.password" name="Password"/> -->
+                                  <!-- <input type="text"  class="form-control" placeholder="Password" [(ngModel)]="userLogin.password" name="Password" required> -->
+                                <input type="text"  class="form-control" placeholder="Username" formControlName="password">
+                               <!-- <small *ngIf="LoginForms.controls['password'].touched && LoginForms.controls['password'].hasError('required')" class="text-danger">  Enter the Valid Password</small> -->
+<small *ngIf="(LoginForms.controls['password'].dirty || LoginForms.controls['password'].touched) && LoginForms.controls['password'].hasError('required')" class="text-danger text-center" >
+  Enter the Valid Password
+</small>
+
+                            </div>
+                            <br/>
+                        </div >
+                        <div class="form-group pt3 d-flex justify-content-center">
+                        <button type="submit" class="btn btn-primary" style="width: 150px;">LogIn</button>
+                        </div>
+                        <br/>
+                        <div class="text-center">
+                                 You don't have an account?
+                                <a routerLink="/signUp">Sign Up</a>
+                        </div>
+                        </div>
+                    </form>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

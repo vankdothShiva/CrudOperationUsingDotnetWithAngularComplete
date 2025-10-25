@@ -1,0 +1,99 @@
+<div class="outer">
+    <div class="container">
+        <div class="row">
+            <div class="offset-md-2 col-lg-5 col-md-7 offset-lg-4 offset-md-3">
+                <div class="panel border bg-white">
+                    <div class="panel-heading mb-3">
+                        <h3 class="text-center">Sign Up</h3>
+                    </div>
+                    <div class="panel-body-p3" style="min-height: 250px;">
+                        <form [formGroup]="SignUpForms" class="row g-3 gy-2 align-items-center" (ngSubmit)="onsubmit()">
+                            <div class="contain">
+                                <div class="form-group pt3 mb-3">
+                                    <div class="input-field">
+
+
+                                        <input type="text" class="form-control" placeholder="FirstName"
+                                            formControlName="FirstName">
+
+                                        <small
+                                            *ngIf="(SignUpForms.controls['FirstName'].dirty || SignUpForms.controls['FirstName'].touched) && SignUpForms.controls['FirstName'].hasError('required')"
+                                            class="text-danger">
+                                            Enter the Valid FirstName
+                                        </small>
+
+                                    </div>
+
+                                </div>
+                                <div class="form-group  pt3 mb-3">
+                                    <div class="input-field">
+
+                                        <input type="text" class="form-control" placeholder="LastName"
+                                            formControlName="LastName">
+                                        <small
+                                            *ngIf="(SignUpForms.controls['LastName'].dirty || SignUpForms.controls['LastName'].touched) && SignUpForms.controls['LastName'].hasError('required')"
+                                            class="text-danger">
+                                            Enter the LastName
+                                        </small>
+                                    </div>
+
+                                </div>
+                                <div class="form-group pt3 mb-3">
+                                    <div class="input-field">
+
+                                        <input type="text" class="form-control" placeholder="Email"
+                                            formControlName="Email">
+                                        <small
+                                            *ngIf="(SignUpForms.controls['Email'].dirty || SignUpForms.controls['Email'].touched) && SignUpForms.controls['Email'].hasError('required')"
+                                            class="text-danger">
+                                            Enter the Email
+                                        </small>
+                                    </div>
+
+                                </div>
+                                <div class="form-group pt3 mb-3">
+                                    <div class="input-field">
+
+                                        <input type="text" class="form-control" placeholder="Username"
+                                            formControlName="Username">
+                                        <small
+                                            *ngIf="(SignUpForms.controls['Username'].dirty || SignUpForms.controls['Username'].touched) && SignUpForms.controls['Username'].hasError('required')"
+                                            class="text-danger">
+                                            Enter the Username
+                                        </small>
+                                    </div>
+
+                                </div>
+                                <div class="form-group pt3 mb-3">
+                                    <div class="input-field">
+
+                                        <input type="password" class="form-control" placeholder="password"
+                                            formControlName="password" >
+                                        <small
+                                            *ngIf="(SignUpForms.controls['password'].dirty || SignUpForms.controls['password'].touched) && SignUpForms.controls['password'].hasError('required')"
+                                            class="text-danger">
+                                            Enter the password
+                                        </small>
+                                    </div>
+
+                                </div>
+
+                                <div class="form-group pt3 d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-primary" style="width: 150px;"
+                                        [disabled]="SignUpForms.invalid">
+                                        SignUp
+                                    </button>
+                                </div>
+                                <br />
+                                <div class="text-center">
+                                    Already have an account?
+                                    <a routerLink="/login">Login</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,68 @@
+<div class="mx-3 my-2">
+<h1>Inventory</h1>
+</div>
+<form class="row g-3 gy-2 align-items-center" (ngSubmit)="onsubmit()">
+<div class="container">
+    
+  <div class="row">
+    <div class="col">
+        <label for="basic-url" class="form-label">ID</label>
+        <input type="text" aria-label="First name" class="form-control" placeholder="id" [disabled]="UpdateDataInput" [(ngModel)]="invertoryData.ProductId" name="ProductId">
+    </div>
+    <div class="col">
+           <label for="basic-url" class="form-label">Products</label>
+        <select class="form-select" aria-label="Default select example" [(ngModel)]="invertoryData.ProductName" name="ProductName">
+            <option selected>Choose..</option>
+            <option value="EarPhone">EarPhone</option>
+            <option value="Mobile">Mobile</option>
+            <option value="Playstore">Playstore</option>
+          </select>
+    </div>
+    
+    <div class="col">
+               <label for="basic-url" class="form-label">Quantity Avalable</label>
+        <input type="" aria-label="First name" class="form-control w-100" placeholder="0" [(ngModel)]="invertoryData.AvailableQuantity" name="AvailableQuantity"></div>
+    <div class="col">
+        <label for="basic-url" class="form-label">Record Points</label>
+        <input type="text" aria-label="First name" class="form-control" placeholder="0" [(ngModel)]="invertoryData.RecordsPoints" name="RecordsPoints"></div>
+    <br/>&nbsp;&nbsp;
+
+    <div class="row">
+    <div class="col">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    </div>
+   
+    </div>
+
+</div>
+</form>
+   
+<br/>&nbsp;&nbsp;
+
+<p>Inventory Details</p>
+
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      
+      <th scope="col">Product Id</th>
+      <th scope="col">Product Name</th>
+      <th scope="col">Available Quantity</th>
+      <th scope="col">Records Points</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of Data; let i = index">
+      <td>{{ item.productId }}</td>
+      <td>{{ item.productName }}</td>
+      <td>{{ item.availableQuantity}}</td>
+      <td>{{ item.recordsPoints }}</td>
+      <td>
+      <button type="button" class="btn btn-primary"  (click)="UpdateData(item)">Edit</button>&nbsp;
+      <button type="button" class="btn btn-danger" (click)="DeleteData(item.productId)">Delete</button>
+    </td>
+    </tr>
+  </tbody>
+</table>
